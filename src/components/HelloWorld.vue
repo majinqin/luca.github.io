@@ -1,3 +1,5 @@
+import { defineProps } from "vue"
+
 <script setup lang="ts">
 defineProps<{
   msg: string
