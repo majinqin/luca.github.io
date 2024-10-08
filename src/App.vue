@@ -11,6 +11,7 @@ const handleSelect = (key: string, keyPath: string[]) => {
 <template>
   <header>
     <div class="wrapper">
+      <div class="text-3xl font-bold underline">hello word</div>
       <el-menu
     :default-active="activeIndex"
     class="el-menu-demo"
@@ -38,4 +39,7 @@ const handleSelect = (key: string, keyPath: string[]) => {
 </template>
 
 <style scoped>
+:deep(.el-menu-item.is-active){
+  color: rgb(47, 99, 255) !important;
+}
 </style>
